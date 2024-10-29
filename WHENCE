@@ -3775,16 +3775,8 @@ File: ath11k/QCN9074/hw1.0/m3.bin
 Version: WLAN.HK.2.7.0.1-01744-QCAHKSWPL_SILICONZ-1
 File: ath11k/QCN9074/hw1.0/Notice.txt
 File: ath11k/WCN6750/hw1.0/board-2.bin
-File: ath11k/WCN6750/hw1.0/wpss.b00
-File: ath11k/WCN6750/hw1.0/wpss.b01
-File: ath11k/WCN6750/hw1.0/wpss.b02
-File: ath11k/WCN6750/hw1.0/wpss.b03
-File: ath11k/WCN6750/hw1.0/wpss.b04
-File: ath11k/WCN6750/hw1.0/wpss.b05
-File: ath11k/WCN6750/hw1.0/wpss.b06
-File: ath11k/WCN6750/hw1.0/wpss.b07
-File: ath11k/WCN6750/hw1.0/wpss.b08
-File: ath11k/WCN6750/hw1.0/wpss.mdt
+File: ath11k/WCN6750/hw1.0/sc7280/wpss.mbn
+Link: ath11k/WCN6750/hw1.0/wpss.mdt -> sc7280/wpss.mbn
 Version: WLAN.MSL.1.0.1-01160-QCAMSLSWPLZ-1
 File: ath11k/WCN6750/hw1.0/Notice.txt
 File: ath11k/IPQ5018/hw1.0/board-2.bin
@@ -4105,9 +4097,13 @@ File: intel/ibt-1040-2120.sfi
 File: intel/ibt-1040-2120.ddc
 Version: BT_SolarJfp_REL151_22.180.2405.151
 
+File: intel/ibt-0093-0291.sfi
+File: intel/ibt-0093-0291.ddc
+File: intel/ibt-0093-0041.sfi
+File: intel/ibt-0093-0041.ddc
 File: intel/ibt-0291-0291.sfi
 File: intel/ibt-0291-0291.ddc
-Version: BT_BlazarU_S_REL64815_23.80.24332.64815
+Version: BT_BlazarU_S_REL67159_23.90.24382.67159
 
 File: intel/ibt-0180-0041.sfi
 File: intel/ibt-0180-0041.ddc
@@ -5108,7 +5104,7 @@ File: i915/mtl_huc_gsc.bin
 Version: HuC API/APB ver 8.5.4 for Meteorlake
 
 File: i915/mtl_gsc_1.bin
-Version: GSC API/APB v1.0, release 102.0.10.1878, SVN 1 for Meteorlake
+Version: GSC API/APB v1.0, release 102.1.15.1926, SVN 1 for Meteorlake
 
 File: i915/bmg_dmc.bin
 Version: DMC API/APB ver 2 release 6 for Battlemage
@@ -5116,13 +5112,16 @@ Version: DMC API/APB ver 2 release 6 for Battlemage
 File: i915/xe2lpd_dmc.bin
 Version: DMC API/APB ver 2 release 21 for Xe2LPD
 
+File: i915/xe3lpd_dmc.bin
+Version: DMC API/APB ver 2 release 13 for Xe3LPD
+
 License: Redistributable. See LICENSE.i915 for details
 --------------------------------------------------------------------------
 
 Driver: xe -- Intel Graphics driver
 
 File: xe/lnl_gsc_1.bin
-Version: GSC API/APB v1.0, release 104.0.0.1161, SVN 1 for Lunarlake
+Version: GSC API/APB v1.0, release 104.0.0.1263, SVN 1 for Lunarlake
 
 File: xe/lnl_guc_70.bin
 Version: GuC API/APB ver 70.29.2 for Lunarlake
@@ -7758,6 +7757,16 @@ File: cirrus/cs35l41-dsp1-spk-prot-10280c4d-spkid1-l0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10280c4d-spkid1-r0.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10280c4d-spkid1-l1.bin
 File: cirrus/cs35l41-dsp1-spk-prot-10280c4d-spkid1-r1.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8cdf.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8ce0.wmfw -> cs35l41/v6.83.0/halo_cspl_RAM_revB2_29.85.0.wmfw
+File: cirrus/cs35l41-dsp1-spk-prot-103c8cdf-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8cdf-spkid0-r0.bin -> cs35l41-dsp1-spk-prot-103c8cdf-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8ce0-spkid0-l0.bin -> cs35l41-dsp1-spk-prot-103c8cdf-spkid0-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8ce0-spkid0-r0.bin -> cs35l41-dsp1-spk-prot-103c8cdf-spkid0-l0.bin
+File: cirrus/cs35l41-dsp1-spk-prot-103c8cdf-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8cdf-spkid1-r0.bin -> cs35l41-dsp1-spk-prot-103c8cdf-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8ce0-spkid1-l0.bin -> cs35l41-dsp1-spk-prot-103c8cdf-spkid1-l0.bin
+Link: cirrus/cs35l41-dsp1-spk-prot-103c8ce0-spkid1-r0.bin -> cs35l41-dsp1-spk-prot-103c8cdf-spkid1-l0.bin
 
 License: Redistributable. See LICENSE.cirrus for details.
 
