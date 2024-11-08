@@ -3313,6 +3313,7 @@ File: rtw88/rtw8723d_fw.bin
 File: rtw88/rtw8821c_fw.bin
 File: rtw88/rtw8703b_fw.bin
 File: rtw88/rtw8703b_wow_fw.bin
+File: rtw88/rtw8812a_fw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -4112,6 +4113,14 @@ File: intel/ibt-0180-4150.ddc
 File: intel/ibt-0180-1050.sfi
 File: intel/ibt-0180-1050.ddc
 Version: BT_Magnetar_REL103427_23.50.24332.103427
+
+File: intel/ibt-0190-0291.sfi
+File: intel/ibt-0190-0291-iml.sfi
+File: intel/ibt-0190-0291.ddc
+File: intel/ibt-0190-0041.sfi
+File: intel/ibt-0190-0041-iml.sfi
+File: intel/ibt-0190-0041.ddc
+Version: BT_BlazarI_S_REL64160_23.70.24233.64160
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
 
@@ -5110,7 +5119,7 @@ File: i915/bmg_dmc.bin
 Version: DMC API/APB ver 2 release 6 for Battlemage
 
 File: i915/xe2lpd_dmc.bin
-Version: DMC API/APB ver 2 release 21 for Xe2LPD
+Version: DMC API/APB ver 2 release 23 for Xe2LPD
 
 File: i915/xe3lpd_dmc.bin
 Version: DMC API/APB ver 2 release 13 for Xe3LPD
@@ -6324,9 +6333,9 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7925 - MediaTek MT7925 Wireless MACs
 
 File: mediatek/mt7925/WIFI_MT7925_PATCH_MCU_1_1_hdr.bin
-Version: 20240816132951a
+Version: 20241104132949a
 File: mediatek/mt7925/WIFI_RAM_CODE_MT7925_1_1.bin
-Version: 20240816133044
+Version: 20241104132855
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6335,7 +6344,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7925 - MediaTek MT7925 bluetooth chipset
 
 File: mediatek/mt7925/BT_RAM_CODE_MT7925_1_1_hdr.bin
-Version: 20240816133202
+Version: 20241104133214
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -6624,6 +6633,7 @@ File: qcom/sm8250/a650_zap.mbn
 File: qcom/a660_gmu.bin
 File: qcom/a660_sqe.fw
 File: qcom/qcm6490/a660_zap.mbn
+Link: qcom/qcs6490/a660_zap.mbn -> ../qcm6490/a660_zap.mbn
 File: qcom/a702_sqe.fw
 File: qcom/leia_pfp_470.fw
 File: qcom/leia_pm4_470.fw
@@ -6633,6 +6643,7 @@ File: qcom/gen70500_sqe.fw
 File: qcom/x1e80100/gen70500_zap.mbn
 File: qcom/a663_gmu.bin
 File: qcom/sa8775p/a663_zap.mbn
+File: qcom/qcs615/a612_zap.mbn
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
@@ -7980,6 +7991,9 @@ File: mediatek/sof/sof-mt8195.ri
 File: mediatek/sof/sof-mt8195.ldc
 File: mediatek/sof-tplg/sof-mt8195-mt6359-rt1019-rt5682.tplg
 Version: v0.4.2
+
+File: mediatek/sof-tplg/sof-mt8195-mt6359-max98390-rt5682.tplg
+Version: v0.4.3
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
